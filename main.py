@@ -145,8 +145,7 @@ def create(username, password, email):
 			#print(claim.text)
 
 			if "The form you're trying to submit has timed out due to inactivity." in claim.text:
-				print(f"[{Fore.YELLOW}!{Fore.WHITE}] Captcha failure, form went inactive for some reason | Delaying 1 minute")
-				#time.sleep(60)
+				print(f"[{Fore.YELLOW}!{Fore.WHITE}] Captcha failure, form went inactive for some reason")
 				attempts += 1
 			elif "This process is automatic. Your browser will redirect to your requested content shortly." in claim.text:
 				print(f"[{Fore.YELLOW}!{Fore.WHITE}] Cloudflare blocked the request #1 | Delaying 1 minute")
