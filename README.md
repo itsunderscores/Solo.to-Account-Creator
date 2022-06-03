@@ -5,7 +5,7 @@ Requirements:<br>
   * TwoCaptcha
 
 Instructions:<br>
-  * Go to https://solo.to/register and get your cf_clearance cookie and replace PLACE_YOUR_CF_CLEARANCE_COOKIE_HERE on line 46<br>
+  * Go to https://solo.to/register and get your cf_clearance cookie and replace PLACE_YOUR_CF_CLEARANCE_COOKIE_HERE on line 69<br>
   * Place your TwoCaptcha API Key on line 14<br>
   * Place accounts you want to create in usernames.txt (Accounts that get created are placed into "claimed.txt)<br>
 
